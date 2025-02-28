@@ -6,9 +6,10 @@ permissions:
   actions: read
 
 on:
-  schedule:
+  #TODO Enable when it's ported
+  #schedule:
     # minute hour dom month dow (UTC)
-    - cron: '00 00 29 2 1'
+    #- cron: '00 00 29 2 1'
   # enable manual trigger of version updates
   workflow_dispatch:
 jobs:
